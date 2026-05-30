@@ -1,0 +1,300 @@
+body {
+    background: linear-gradient(135deg, #000000 0%, #333333 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+    margin-top: 3rem;
+    border: 2px solid #28a745;
+}
+
+.login-header {
+    background: linear-gradient(90deg, #000000, #28a745);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.login-body {
+    padding: 2rem;
+}
+
+.btn-login {
+    background: linear-gradient(90deg, #28a745, #218838);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}
+
+.login-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+.register-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+    margin-top: 3rem;
+    border: 2px solid #28a745;
+}
+
+.register-header {
+    background: linear-gradient(90deg, #000000, #28a745);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.register-body {
+    padding: 2rem;
+}
+
+.btn-register {
+    background: linear-gradient(90deg, #28a745, #218838);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.btn-register:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}
+
+.register-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+/* Form Styles for Login/Register */
+.form-control-login {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: #000000;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.form-control-login:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+.form-label-login {
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-check-input:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.form-check-label {
+    color: #000000;
+}
+
+.form-text {
+    color: #6c757d;
+}
+
+/* Alert Styles for Login/Register */
+.login-alert {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.login-alert-success {
+    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(33, 136, 56, 0.1));
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+
+.login-alert-danger {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(51, 51, 51, 0.1));
+    border-left: 4px solid #000000;
+    color: #721c24;
+}
+
+.login-alert-warning {
+    background: linear-gradient(90deg, rgba(255, 193, 7, 0.1), rgba(224, 168, 0, 0.1));
+    border-left: 4px solid #ffc107;
+    color: #856404;
+}
+
+/* Link Styles */
+.login-link {
+    color: #28a745;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.login-link:hover {
+    color: #218838;
+    text-decoration: underline;
+}
+
+/* Login/Register Container */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Brand Logo */
+.auth-brand {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.auth-brand h1 {
+    color: #28a745;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.auth-brand p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* Social Login */
+.social-login {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.social-btn {
+    border: 2px solid #000000;
+    color: #000000;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 600;
+    transition: all 0.3s;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.social-btn:hover {
+    background: #000000;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.social-btn.google {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.social-btn.google:hover {
+    background: #28a745;
+    color: white;
+}
+
+/* Divider */
+.auth-divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.auth-divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #dee2e6;
+    z-index: 1;
+}
+
+.auth-divider span {
+    background: white;
+    padding: 0 15px;
+    color: #6c757d;
+    position: relative;
+    z-index: 2;
+}
+
+/* Password Toggle */
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.password-toggle:hover {
+    color: #28a745;
+}
+
+/* Remember Me */
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .login-card,
+    .register-card {
+        margin-top: 1rem;
+    }
+    
+    .login-header,
+    .register-header {
+        padding: 1.5rem;
+    }
+    
+    .login-body,
+    .register-body {
+        padding: 1.5rem;
+    }
+    
+    .auth-brand h1 {
+        font-size: 2rem;
+    }
+}
